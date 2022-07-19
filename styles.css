@@ -1,0 +1,216 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-align: center;
+}
+.parent-container{
+    margin: inherit;
+    padding: inherit;
+}
+
+.header-section{
+    display: flex;
+    background-image: url('https://wp-haunsinafrica.s3.amazonaws.com/wp-content/uploads/sites/10/2018/10/12230604/20190111-whaun-gbintiri-market-north-east-region-ghana-0173.jpg');
+    width: 720px;
+    height: 343px;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #457B9D;
+    background-blend-mode: overlay;
+}
+
+.title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #222222;
+    line-height: 37px;
+    background-color: #ffcad4;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.title:hover{
+    background-color: #240046;
+    font-size: 40px;
+    color: #EEE;
+}
+
+.header-section .description{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFF;
+    font-size: 19px;
+    background-color: #a4133c;
+    padding: 10px 20px;
+    width: 355px;
+    height: 39px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+} 
+
+.subtitle{
+    width: 720px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#span{
+    color: #a4133c;
+    border-bottom: 3px solid #a4133c
+}
+
+/* .main-activities{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.activities-img{
+    display: flex;
+    width: 720px;
+    height: 343px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ffcad4;
+    border-bottom: 10px solid #a4133c;
+    /* box-shadow: -5px 4px 10px 0 #222222; */
+    
+}
+.Market-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.activities-img .image{
+    width: 100px;
+    height: 100px;
+    padding: 0 15px;
+    border-radius: 50%;
+}
+
+.activities-img .market-title{
+    width: 183px;
+    height:32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0 15px;
+    text-align: center;
+    
+}
+
+.activities-img .item-description{
+    width: 198px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'Inter', sans-serif;
+    padding: 0 15px;
+    text-align: center;
+    margin: 0;
+}
+
+.card-container{
+    width: 720px;
+    height: 394px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.footer-card{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 294px;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #a4133c;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom: 6px solid #ff8fab;
+
+}
+
+.profile-pic{
+    background-image: url('images/profile.png');
+    width: 180px;
+    height: 249px;
+    background-size: cover;
+    border: 5px solid #FFFFFF;
+    border-top-left-radius: 30px;
+}
+
+.profile-info p{
+    width: 189px;
+    height: 71px;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 75px;
+    font-style: italic;
+}
+
+.profile-info{
+    padding: 0 0 0 30px;
+    color: #FFF;
+}
+
+.profile-info h2{
+    width: 207px;
+    height: 32px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+
+.profile-info h3{
+    width: 189px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.copyright-footer{
+    background-color: #ffcad4;
+    width: 720px;
+    height: 30px;
+    margin: 0 auto;
+    color: #222222;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top: 10px solid #a4133c
+}
+
